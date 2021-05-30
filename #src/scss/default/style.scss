@@ -1,0 +1,50 @@
+@import "./varibles.scss";
+
+// <ПОДКЛЮЧЕНИЕ ШРИФТОВ>
+@import "./fonts.scss";
+// </ПОДКЛЮЧЕНИЕ ШРИФТОВ>
+
+//<ШРИФТ ПО УМОЛЧАНИЮ>
+$fontFamily: "Cera Pro";
+//</ШРИФТ ПО УМОЛЧАНИЮ>
+
+//<ПОДКЛЮЧЕНИЕ ОБЯЗАТЕЛЬНЫХ SCSS КОМПОНЕНТОВ>
+@import "./null.scss";
+@import "./mixins.scss";
+//</ПОДКЛЮЧЕНИЕ ОБЯЗАТЕЛЬНЫХ SCSS КОМПОНЕНТОВ>
+
+//<ОБОЛОЧКА>
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+
+  &.loaded {
+  }
+}
+//</ОБОЛОЧКА>
+
+//<ОСНОВНАЯ СЕТКА>
+.container {
+  max-width: $maxWidthContainer + px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+//</ОСНОВНАЯ СЕТКА>
+
+//<ПОДКЛЮЧЕНИЕ СТРАНИЦ>
+
+// Index
+@import "../pages/index/index.scss";
+//<ПОДКЛЮЧЕНИЕ СТРАНИЦ>
+
+//<ПОДКЛЮЧЕНИЕ ОБЩИХ СТИЛЕЙ>
+@import "../common/btns.scss";
+@import "../common/icons-tree.scss";
+@import "../common/social.scss";
+//<ПОДКЛЮЧЕНИЕ ОБЩИХ СТИЛЕЙ>
