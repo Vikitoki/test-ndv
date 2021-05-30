@@ -387,7 +387,7 @@
   &__item {
     display: block;
     width: 100%;
-    flex: 0 1 30%;
+    flex: 0 1 35%;
 
     position: relative;
     z-index: 1;
@@ -398,7 +398,7 @@
     overflow: hidden;
 
     &_big {
-      flex: 0 1 70%;
+      flex: 0 1 65%;
 
       @media (max-width: $md2 + px) {
         flex: 1 1 100%;

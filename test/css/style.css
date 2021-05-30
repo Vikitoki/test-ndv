@@ -917,8 +917,8 @@ h6 {
   display: block;
   width: 100%;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 30%;
-          flex: 0 1 30%;
+      -ms-flex: 0 1 35%;
+          flex: 0 1 35%;
   position: relative;
   z-index: 1;
   -webkit-transition: all 0.3s ease;
@@ -930,8 +930,8 @@ h6 {
 
 .services-benefits__item_big {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 70%;
-          flex: 0 1 70%;
+      -ms-flex: 0 1 65%;
+          flex: 0 1 65%;
 }
 
 .services-benefits__item_alone {
